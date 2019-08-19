@@ -299,8 +299,9 @@
     }
 
     .post-block {
+        width: 31.1%;
         max-width: 45%;
-        margin: 0 15px 15px;
+        margin: 0 0 30px;
     }
 
     .post-text {
