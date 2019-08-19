@@ -1,7 +1,3 @@
-body {
-    background: red;
-}
-
 .logo {
     display: block;
 
@@ -274,10 +270,6 @@ body {
         padding: 10px;
     }
 
-   /* .post-image-big {
-        height: 240px;
-    }*/
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -286,9 +278,6 @@ body {
         width: 90%;
     }
     
-    /*.post-title {
-        font-size: 15px;
-    }*/
 }
 
 @media screen and (max-width: 1024px) {
@@ -318,10 +307,6 @@ body {
     .post-text {
         padding: 10px;
     }
-
-    /*.post-image-big {
-        height: 240px;
-    }*/
 
 }
 
