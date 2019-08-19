@@ -277,6 +277,11 @@
         width: 90%;
     }
     
+    .post-block {
+        width: 31.1%;
+        margin: 0 0 30px;
+    }
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -300,7 +305,6 @@
 
     .post-block {
         width: 31.1%;
-        max-width: 45%;
         margin: 0 0 30px;
     }
 
