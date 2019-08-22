@@ -203,24 +203,14 @@ p {
         margin: 0;
     }
 
-    .logo {
-        margin: 0 0 15px 0;
-    }
-
     .header-wrapper {
         position: relative;
 
         display: block;
-
-        align-items: flex-start;
     }
 
     .header-content {
-        display: flex;
-
-        text-align: center;
-
-        justify-content: center;
+         text-align: center;
     }
 }
 
