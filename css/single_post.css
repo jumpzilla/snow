@@ -124,7 +124,7 @@
 .post-block p {
     margin: 0;
 
-    letter-spacing: .1px;
+    letter-spacing: 0.1px;
 }
 
 .post-image {
@@ -165,7 +165,7 @@
 
     margin-bottom: 7px;
 
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
 }
 
 .post-time {
@@ -176,7 +176,7 @@
 
     margin-bottom: 12px;
 
-    letter-spacing: .3px;
+    letter-spacing: 0.3px;
     text-transform: uppercase;
 
     color: #171717;
@@ -275,6 +275,10 @@
     .post-text {
         padding: 10px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dcbef2bfd9fc8422092fe4b520dd270eff3c6299
 }
 
 @media screen and (min-width: 1024px) {
@@ -287,6 +291,15 @@
         width: 31.1%;
         margin: 0 0 30px;
     }
+<<<<<<< HEAD
+=======
+    
+    .post-block {
+        width: 31.1%;
+        margin: 0 0 30px;
+    }
+    
+>>>>>>> dcbef2bfd9fc8422092fe4b520dd270eff3c6299
 }
 
 @media screen and (max-width: 1024px) {
@@ -316,6 +329,7 @@
     .post-text {
         padding: 10px;
     }
+<<<<<<< HEAD
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -323,4 +337,15 @@
         width: 100%;
         max-width: 320px;
     }
+=======
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+        .post-block {
+            width: 100%;
+            max-width: 320px;
+        }
+        
+>>>>>>> dcbef2bfd9fc8422092fe4b520dd270eff3c6299
 }
