@@ -648,6 +648,10 @@ input[type=email] {
         margin: 3px;
 
         cursor: pointer;
+
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     .trigger i {
@@ -675,12 +679,13 @@ input[type=email] {
     }
 
     .logo {
-        width: 100%;
         margin: 0 0 15px 0;
     }
 
     .header-wrapper {
         display: block;
+        position: relative;
+        align-items: flex-start;
     }
 
     .main-tagline {
@@ -723,11 +728,6 @@ input[type=email] {
     .single-item {
         padding-bottom: 59px;
     }
-
-   /* .post-carousele {
-        width: 59%;
-        margin: 0 auto;
-    }*/
 
     .contact-info {
         padding: 0 90px 90px 90px;
@@ -778,7 +778,7 @@ input[type=email] {
     }
 } 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 321px) and (max-width: 768px) {
     .main-tagline {
     transform: translateY(50%);
     }

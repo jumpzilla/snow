@@ -20,7 +20,7 @@
 
     padding: 15px 0;
 
-    transition: 0.5s;
+    transition: .5s;
 
     background-color: #6d605b;
 }
@@ -124,7 +124,7 @@
 .post-block p {
     margin: 0;
 
-    letter-spacing: 0.1px;
+    letter-spacing: .1px;
 }
 
 .post-image {
@@ -165,7 +165,7 @@
 
     margin-bottom: 7px;
 
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
 }
 
 .post-time {
@@ -176,7 +176,7 @@
 
     margin-bottom: 12px;
 
-    letter-spacing: 0.3px;
+    letter-spacing: .3px;
     text-transform: uppercase;
 
     color: #171717;
@@ -199,6 +199,10 @@
     }
 
     .trigger {
+        position: absolute;
+        top: 0;
+        right: 0;
+
         display: inline-block;
 
         margin: 3px;
@@ -231,12 +235,15 @@
     }
 
     .logo {
-        width: 100%;
         margin: 0 0 15px 0;
     }
 
     .header-wrapper {
+        position: relative;
+
         display: block;
+
+        align-items: flex-start;
     }
 
     .header-content {
@@ -268,26 +275,24 @@
     .post-text {
         padding: 10px;
     }
-
 }
 
 @media screen and (min-width: 1024px) {
     .header-wrapper {
-        margin: 0 auto;
         width: 90%;
+        margin: 0 auto;
     }
 
     .post-block {
         width: 31.1%;
         margin: 0 0 30px;
     }
-    
 }
 
 @media screen and (max-width: 1024px) {
     .header-wrapper {
-        margin: 0 auto;
         width: 90%;
+        margin: 0 auto;
     }
 
     .single-post {
@@ -311,13 +316,11 @@
     .post-text {
         padding: 10px;
     }
-
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-        .post-block {
-            width: 100%;
-            max-width: 320px;
-        }
-        
+    .post-block {
+        width: 100%;
+        max-width: 320px;
+    }
 }

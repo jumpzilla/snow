@@ -20,7 +20,7 @@
 
     padding: 15px 0;
 
-    transition: 0.5s;
+    transition: .5s;
 
     background-color: #6d605b;
 }
@@ -80,7 +80,7 @@ p {
 }
 
 .heading {
-    position: relative;
+    display: flex;
 
     max-width: 100%;
     margin: 0;
@@ -89,8 +89,8 @@ p {
 }
 
 .heading-contecnt {
-    max-width: 768px;
-    margin: 0 0 93px;
+    width: calc(70% - 30px);
+    margin: 0 30px 93px 0;
 }
 
 .heading-contecnt h2 {
@@ -104,7 +104,7 @@ p {
 }
 
 .contact-list {
-    position: absolute;
+    position: relative;
     top: 77px;
     right: -15px;
 
@@ -149,46 +149,16 @@ p {
     background: #fff;
 }
 
-@media screen and (max-width: 1248px) {
-    .heading {
-        position: inherit;
-
-        margin-bottom: 30px;
-    }
-
-    .heading-contecnt {
-        margin: 0;
-    }
-
-    .contact-list {
-        position: inherit;
-    }
-}
-
 @media screen and (min-width: 1024px) {
     .header-wrapper {
-        margin: 0 auto;
         width: 90%;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .heading {
-        position: inherit;
-
-        margin-bottom: 30px;
-    }
-
-    .heading-contecnt {
-        margin: 0;
-    }
-
     .video-items video {
         height: 100%;
-    }
-
-    .contact-list {
-        position: inherit;
     }
 }
 
@@ -198,6 +168,10 @@ p {
     }
 
     .trigger {
+        position: absolute;
+        top: 0;
+        right: 0;
+
         display: inline-block;
 
         margin: 3px;
@@ -230,12 +204,15 @@ p {
     }
 
     .logo {
-        width: 100%;
         margin: 0 0 15px 0;
     }
 
     .header-wrapper {
+        position: relative;
+
         display: block;
+
+        align-items: flex-start;
     }
 
     .header-content {
@@ -245,15 +222,31 @@ p {
 
         justify-content: center;
     }
-    
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-        .single-work {
-            padding: 45px 0 0;
-        }
-
-        .video-items {
-            margin: 0;
-        }
+@media screen and (max-width: 321px) and (max-width: 768px) {
+    .single-work {
+        padding: 45px 0 0;
     }
+
+    .video-items {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .heading {
+        display: block;
+
+        margin-bottom: 90px;
+    }
+
+    .heading-contecnt {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-list {
+        position: inherit;
+    }
+}

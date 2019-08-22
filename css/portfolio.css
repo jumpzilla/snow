@@ -20,7 +20,7 @@
 
     padding: 15px 0;
 
-    transition: 0.5s;
+    transition: .5s;
 
     background-color: #6d605b;
 }
@@ -74,7 +74,7 @@
 }
 
 .portfolio {
-    padding: 0px 90px 90px 90px;
+    padding: 0 90px 90px 90px;
 }
 
 .heading {
@@ -185,15 +185,15 @@
 
 @media screen and (min-width: 1024px) {
     .header-wrapper {
-        margin: 0 auto;
         width: 90%;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width:1024px) {
     .header-wrapper {
-        margin: 0 auto;
         width: 90%;
+        margin: 0 auto;
     }
 
     .portfolio {
@@ -219,6 +219,10 @@
     }
 
     .trigger {
+        position: absolute;
+        top: 0;
+        right: 0;
+
         display: inline-block;
 
         margin: 3px;
@@ -251,12 +255,15 @@
     }
 
     .logo {
-        width: 100%;
         margin: 0 0 15px 0;
     }
 
     .header-wrapper {
+        position: relative;
+
         display: block;
+
+        align-items: flex-start;
     }
 
     .header-content {
